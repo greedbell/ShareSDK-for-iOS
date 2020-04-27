@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-  s.name             = 'mob_sharesdk'
-  s.version          = "4.3.7"
+  s.name             = 'mob_sharesdk_bell'
+  s.version          = "4.3.7.1"
   s.summary          = 'ShareSDK is the most comprehensive Social SDK in the world,which share easily with 40+ platforms.'
   s.license          = 'MIT'
   s.author           = { "mob" => "mobproducts@163.com" }
 
   s.homepage         = 'http://www.mob.com'
 
-  s.source           = { :http => 'http://dev.ios.mob.com/files/download/sharesdk/ShareSDK_For_iOS_v4.3.7.zip' }
+  s.source           = { :git => 'https://github.com/greedbell/ShareSDK-for-iOS.git', :tag => s.version.to_s }
 
   s.platform         = :ios
   s.ios.deployment_target = "8.0"
